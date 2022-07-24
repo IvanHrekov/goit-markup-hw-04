@@ -399,7 +399,46 @@ body {
 .social-list-icon {
     fill: #AFB1B8;
 }
+.client-title{
+    margin-bottom: 50px;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color:var(--secondary-text-color)
+}
+.client-item{
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+        border-radius: 4px;
+}
+.client-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.client-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 32px;
+}
+.client-list-icon{
+    fill: #AFB1B8;
+}
+.client-item:hover,
+.client-item:focus{
+border-color: #2196F3;
+}
 
+.client-link:hover .client-list-icon,
+.client-link:focus .client-list-icon{
+    fill: var(--accent-color);
+}
 /* /MAIN */
 /* FOOTER */
 .main-footer {
